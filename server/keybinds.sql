@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `keybinds` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `identifier` VARCHAR(50) NOT NULL,
+    `key` VARCHAR(10) NOT NULL,
+    `command` VARCHAR(255) NOT NULL
+);

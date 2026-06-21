@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keybind Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <div class="menu-header">
+            <h2 id="menuTitle">🎮 Keybind Manager</h2>
+            <button class="close-btn" onclick="closeMenu()">✖</button>
+        </div>
+
+        <div class="menu-content">
+            <ul id="keybindList"></ul>
+
+            <div class="input-container">
+                <input type="text" id="keyInput" placeholder="Press a Key">
+                <input type="text" id="commandInput" placeholder="Enter Command">
+                <button onclick="bindKey()">➕ Add Keybind</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
